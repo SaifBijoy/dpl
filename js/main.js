@@ -1,0 +1,10 @@
+$(".btn-1").click(function(){
+    $(".nav").removeClass("vew-sc");
+    $(".btn-1").removeClass("vew-1");
+    $(".btn-2").addClass("vew-1")
+})
+$(".btn-2").click(function(){
+    $(".nav").addClass("vew-sc");
+    $(".btn-2").removeClass("vew-1");
+    $(".btn-1").addClass("vew-1")
+})
